@@ -1,0 +1,7 @@
+Name,Slug,Description,Parent
+United States,united-states, ,
+US Northeast,us-northeast, ,United States
+US Southwest,us-southwest, ,United States
+US West,us-west, ,United States
+US Southeast,us-southeast, ,United States
+US Midwest,us-midwest, ,United States

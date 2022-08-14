@@ -1,0 +1,5 @@
+Name,Slug,Description,Manufacturer
+Cisco IOS,cisco-ios,NA,Cisco
+Cisco IOS XR,cisco-ios-xr,Test,Cisco
+Cisco IOS XE,cisco-ios-xe,NA,Cisco
+Cisco NX-OS,cisco-nx-os,NA,Cisco

@@ -1,0 +1,4 @@
+Name,Slug,Description,Weight
+Guest Nework,guest-network,1000 
+Management Network,management-network,1000
+Storage Network,storage-network,1000

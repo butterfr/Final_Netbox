@@ -1,0 +1,31 @@
+---
+
+- name: Pre-populate Netbox with Templates
+  hosts: localhost
+  connection: localhost
+  gather_facts: no 
+  tasks:
+  
+    - name: install required applications for execution
+      command: pip3 install -r requirements.txt
+
+    - name: create .env file
+      copy:
+        dest: ./.env
+        content: |
+          NETBOX_URL= {{ url }}
+          NETBOX_TOKEN= {{ token }}
+          REPO_URL=https://github.com/netbox-community/devicetype-library.git
+          REPO_BRANCH=master
+          IGNORE_SSL_ERRORS=False
+          #SLUGS=c9300-48u isr4431 isr4331
+
+    - name: execute device type import python script
+      command: python3 deviceTypeImport.py
+
+    - name: execute module type import python script
+      command: python3 moduleTypeImport.py
+
+    - name: execute InputObjects python script
+      command: python3 InputObjects.py      
+

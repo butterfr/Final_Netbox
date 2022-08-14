@@ -1,0 +1,10 @@
+Name,Slug,Description,Color,VM_Role
+Access Laptop, access-laptop, ,444ff7,False
+Fiber Panel, fiber-panel, ,143a1e,True
+Firewall, firewall, ,fc1ba9,False
+IP Router, ip-router, ,75aaca,False
+IP Switch, ip-switch, ,cb23e1,False
+Patch Panel, patch-panel, ,4acaad,False
+SDWAN, sdwan, ,bbdbdd,False
+Server, server, ,324fe7,False
+Wireless Access Point, wireless-access-point, ,dea96d,False

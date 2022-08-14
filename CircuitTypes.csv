@@ -1,0 +1,12 @@
+Name,Slug,Description
+Broadband - Cable, broadband-cable, NA
+Broadband - DSL, broadband-dsl, NA
+Broadband - Ethernet, broadband-ethernet, NA
+DIA - Ethernet, dia-ethernet, NA
+DIA - Fixed Wireless, dia-fixed-wireless, NA
+DIA - TDM, dia-tdm, NA
+MPLS - Ethernet, mpls-ethernet, NA
+MPLS - TDM, mpls-tdm, NA
+Mobile Wireless, mobile-wireless, NA
+P2P Ethernet, p2p-ethernet, NA
+P2P - TDM, p2p-tdm, NA
